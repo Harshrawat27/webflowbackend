@@ -14,7 +14,7 @@ const User = mongoose.model('todos', userSchema);
 
 // Connect to MongoDB
 mongoose.connect(
-  'mongodb+srv://harshrwt027:xw6lUthZT94HSB34@cluster0.zmqkfcc.mongodb.net/todos',
+  'localhost',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
